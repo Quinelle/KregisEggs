@@ -1,0 +1,127 @@
+.outer-bg-cover {
+    background-color: #e39774;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat; 
+}
+
+.inner-bg-cover {
+    background-color: #ffffff;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.36);
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+}
+.inner-text{
+    display: grid;
+    justify-content: center;
+    padding-top: 5px;
+}
+.center-me {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.inner-bg-cover img{
+    height: 200px;
+    width: auto;
+    
+}
+
+.def-btn {
+    background-color: #326273;
+    color: #ffffff;
+    transition: 0.25s all;
+}
+
+.def-btn:hover {
+    background-color: #5c9ead;
+    color: #eeeeee;
+}
+
+
+.hide{
+    display:none;
+    text-align: center;
+}
+.hide:hover{
+    background-color: #5c9ead;
+    color: #eeeeee;
+}
+
+.show{
+    background-color: #eeeeee; 
+    border: 1px solid #326273;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    
+}
+.sbm{
+    display:none;
+}
+.sbmshow{
+    background-color: #eeeeee; 
+    border: 1px solid #326273;
+    color: #326273;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sbm{
+    display:none;
+}
+.sbmshow{
+    background-color: #eeeeee; 
+    border: 1px solid #326273;
+    color: #326273;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.stayHidden{
+    display:none;
+}
+
+.seller-info{
+    display:none;
+}
+
+.show-info{
+    display:grid;
+    border: 1px solid #326273;
+    text-align:center;
+    color: #326273;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #326273;
+    color: #ffffff;
+    transition: 0.25s all;;
+}
